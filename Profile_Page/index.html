@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personal profile webpage">
+    <title>My Profile | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:,">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="logo">
+            <h1>My Profile</h1>
+            <p>AI &amp; Data Science Student</p>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+        <!-- HOME -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="hello">Hello, I'm</p>
+
+                <h2>Ankit</h2>
+
+                <h3>AI &amp; Data Science Student</h3>
+
+                <p>
+                    I am passionate about programming, Artificial
+                    Intelligence, Web Development and building
+                    real-world projects.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+
+            </div>
+
+           <div class="profile-image">
+              <img src="profile.png" alt="My Profile Picture">
+              <input type="file" id="photoInput" accept="image/*" hidden>
+          </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                Hello! I am Ankit, an Artificial Intelligence and
+                Data Science student who enjoys learning programming
+                and exploring modern technologies.
+            </p>
+
+            <p>
+                I am interested in Software Development,
+                Artificial Intelligence, Data Structures,
+                Web Development and Problem Solving.
+            </p>
+
+            <p>
+                My goal is to continuously improve my technical
+                skills and build useful projects that solve
+                real-world problems.
+            </p>
+
+        </section>
+
+
+        <!-- EDUCATION -->
+
+        <section id="education">
+
+            <h2>Education</h2>
+
+            <div class="card-container">
+
+                <div class="card">
+                    <h3>Bachelor's Degree</h3>
+                    <p><strong>Course:</strong> Artificial Intelligence &amp; Data Science</p>
+                    <p><strong>Duration:</strong> 2026 - Present</p>
+                </div>
+
+                <div class="card">
+                    <h3>Class 12</h3>
+                    <p><strong>Qualification:</strong> Higher Secondary Education</p>
+                    <p><strong>Year:</strong> 2025</p>
+                </div>
+
+                <div class="card">
+                    <h3>Class 10</h3>
+                    <p><strong>Qualification:</strong> Secondary Education</p>
+                    <p><strong>Year:</strong> 2023</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+
+        <section id="skills">
+
+            <h2>My Skills</h2>
+
+            <div class="skills-container">
+                <div class="skill">C</div>
+                <div class="skill">C++</div>
+                <div class="skill">Python</div>
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">DSA</div>
+                <div class="skill">Git &amp; GitHub</div>
+                <div class="skill">Artificial Intelligence</div>
+                <div class="skill">SQL</div>
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+
+        <section id="projects">
+
+            <h2>My Projects</h2>
+
+            <div class="card-container">
+
+                <div class="project-card">
+                    <h3>Freelancing Platform</h3>
+                    <p>
+                        A platform designed to help college students
+                        find freelancing and part-time opportunities
+                        according to their skills.
+                    </p>
+                    <p><strong>Technology:</strong> HTML, CSS, JavaScript</p>
+                    <a href="#" class="project-btn">View Project</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Rock Paper Scissors</h3>
+                    <p>
+                        A Python game where the user competes
+                        against the computer.
+                    </p>
+                    <p><strong>Technology:</strong> Python</p>
+                    <a href="#" class="project-btn">View Project</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Student Portfolio</h3>
+                    <p>
+                        A personal portfolio website showcasing
+                        education, skills and projects.
+                    </p>
+                    <p><strong>Technology:</strong> HTML, CSS, JavaScript</p>
+                    <a href="#" class="project-btn">View Project</a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- GOALS -->
+
+        <section id="goals">
+
+            <h2>Career Goals</h2>
+
+            <div class="goals-list">
+                <p>✓ Become a strong programmer</p>
+                <p>✓ Improve Data Structures &amp; Algorithms</p>
+                <p>✓ Learn Artificial Intelligence</p>
+                <p>✓ Build real-world projects</p>
+                <p>✓ Contribute to open-source projects</p>
+                <p>✓ Become a professional software developer</p>
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <form>
+
+                <label for="name">Name</label>
+                <input type="text"
+                       id="name"
+                       placeholder="Enter your name"
+                       required>
+
+                <label for="email">giria0392@gmail.com</label>
+                <input type="email"
+                       id="email"
+                       placeholder="Enter your email"
+                       required>
+
+                <label for="message">Message</label>
+                <textarea id="message"
+                          rows="6"
+                          placeholder="Write your message..."
+                          required></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </section>
+
+
+        <!-- SOCIAL -->
+
+        <section id="social">
+
+            <h2>Connect With Me</h2>
+
+            <div class="social-links">
+                <a href="https://github.com/giria0392-prog" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/ankit-giri-056062381?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/ankit_giri_2006?stkn=MWkzcWdjZGF5b2dvYw==" target="_blank">Instagram</a>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>© 2026 Ankit. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>
