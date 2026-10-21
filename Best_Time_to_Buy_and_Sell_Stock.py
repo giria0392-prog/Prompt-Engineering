@@ -1,4 +1,4 @@
-lst1 = [7, 1, 5, 3, 6, 4, 9, 11]
+lst1 = [7, 1, 5, 3, 6, 4]
 
 min_price = lst1[0]
 max_profit = 0
