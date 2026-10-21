@@ -1,4 +1,4 @@
-lst1 = [2, 7, 11, 15]
+lst1 = [2, 7, 11, 15, 20, 34]
 
 for i in lst1:
     for j in range(1, i + 1):
